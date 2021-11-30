@@ -1,0 +1,25 @@
+{
+	"new_hall_name": "form > .conf-step__label > .conf-step__input",
+	"hall_configuration": "#hall-configuration > .conf-step__wrapper > .conf-step__selectors-box",
+	"rows": "#input_rows_count",
+	"places": "#input_places_count",
+	"hall_configuration_save": "#hall-configuration .conf-step__button-accent",
+	"price_configuration": "#price-configuration > .conf-step__wrapper > .conf-step__selectors-box",
+	"price_std": "#input_price_standart",
+	"price_vip": "#input_price_vip",
+	"price_configuration_save": "#price-configuration > .conf-step__button-accent",
+	"add_movie": ".conf-step__paragraph > a > .conf-step__button",
+	"movie_name": ".popup__form > :nth-child(1) > .conf-step__input",
+	"movie_time": ".popup__form > :nth-child(2) > .conf-step__input",
+	"movie_description": ".popup__form > :nth-child(3) > .conf-step__input",
+	"movie_country": ".popup__form > :nth-child(4) > .conf-step__input",
+	"poster": "[value='Загрузить постер']",
+	"save_movie": "[value='Добавить фильм']",
+	"sales_hall": "#start-sales > [style='display: block;']",
+	"open_sales": "#start-sales > .text-center > .conf-step__button",
+
+	"day": ".page-nav > a:nth-child(3)",
+	"time": ":nth-child(2) > .movie-seances__hall > .movie-seances__list > .movie-seances__time-block > .movie-seances__time",
+	"chair": ".buying-scheme__wrapper > :nth-child(2) > :nth-child(3)",
+	"button": ".acceptin-button"
+}
