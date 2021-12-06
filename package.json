@@ -15,8 +15,8 @@
 		"cy:chrome_parall": "npm run cy:booking -- --group book_spec --browser chrome --ci-build-id 5 & npm run cy:halls -- --group hall_spec --browser chrome --ci-build-id 5 & npm run cy:api -- --group api_spec --browser chrome --ci-build-id 5",
 		"cy:chrome_&_fire_parall": "npm run cy:booking -- --group book_spec --browser chrome --ci-build-id 5 & npm run cy:halls -- --group hall_spec --browser firefox --ci-build-id 5 & npm run cy:api -- --group api_spec --browser chrome --ci-build-id 5",
 		"cy:two": "npm run cy:book_folder -- --group Spec1 --ci-build-id 5 & npm run cy:hall_folder -- --group Spec2  --ci-build-id 5",
-		"cy:book_folder": "npx cypress run --spec 'cypress/integration/book//' --record --key 75af18d2-588f-47b9-9368-29652e9b94dc",
-		"cy:hall_folder": "npx cypress run --spec 'cypress/integration/hall//' --record --key 75af18d2-588f-47b9-9368-29652e9b94dc"
+		"cy:book_folder": "npx cypress run --spec 'cypress/integration/book/*' --record --key 75af18d2-588f-47b9-9368-29652e9b94dc",
+		"cy:hall_folder": "npx cypress run --spec 'cypress/integration/hall/*' --record --key 75af18d2-588f-47b9-9368-29652e9b94dc"
 	},
 	"author": "Orlov-d",
 	"license": "ISC",
